@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on arvchristos</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on arvchristos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Oct 2019 15:09:12 +0300</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello there !</title>
+      <link>/post/hello-there/</link>
+      <pubDate>Tue, 01 Oct 2019 15:09:12 +0300</pubDate>
+      
+      <guid>/post/hello-there/</guid>
+      <description>I am here poster</description>
+    </item>
+    
+  </channel>
+</rss>
