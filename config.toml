@@ -1,4 +1,4 @@
-baseurl = "https://arvchristos.github.io" 
+baseurl = "https://arvchristos.github.io/arvchristos" 
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
