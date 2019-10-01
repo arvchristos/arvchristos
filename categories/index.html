@@ -40,6 +40,7 @@
 
 
 <link rel="alternate" type="application/rss+xml" href="/categories/index.xml" title="arvchristos" />
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 
 
@@ -145,9 +146,19 @@
     
   </div>
 </footer>
-
 <script src="/assets/main.js"></script>
 <script src="/assets/prism.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
 
       
