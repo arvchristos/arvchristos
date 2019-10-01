@@ -2,7 +2,6 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
-publishDir = "../"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
