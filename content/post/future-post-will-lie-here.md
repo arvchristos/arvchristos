@@ -6,6 +6,5 @@ author: "Christos"
 description: "The best project"
 ---
 This is the place that will host my resume as well as a blog with several posts about anything that may come on my mind (such as the hell I passed through to setup this simple website).
-This is the place that will host my resume as well as a blog with several posts about anything that may come on my mind (such as the hell I passed through to setup this simple website).
 
-This is the place that will host my resume as well as a blog with several posts about anything that may come on my mind (such as the hell I passed through to setup this simple website).
+![linux](/images/uploads/linux_2014.png)
