@@ -9,6 +9,7 @@
         {{ $active = or $active (eq .Name $current.Page.Title) }}
         {{ $active = or $active (eq .Name $current.Title) }}
         {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "post")) }}
+        {{ $active = or $active (and (eq .Name "Projects") (eq $current.Section "project")) }}
         {{ $active = or $active (and (eq .Name "Tags") (eq $current.Section "tags")) }}
         
           <li><a class="{{ if $active }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a></li>

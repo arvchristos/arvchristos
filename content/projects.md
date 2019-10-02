@@ -1,6 +1,6 @@
 +++
 title = "Projects"
-layout = "project_list"
+layout = "list"
 url = "/projects"
-type="archive"
+type="project"
 +++
