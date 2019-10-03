@@ -40,5 +40,12 @@ LibreOffice extension development is mainly documented for LO Basic, a language 
 ## Download
 
 Page Numbering Addon can be found either in this repository or at the following links:
+
 * [LibreOffice Official Extensions](https://extensions.libreoffice.org/extensions/page-numbering-addon).
 * [Apache OpenOffice Extensions](https://extensions.openoffice.org/en/project/page-numbering-addon)
+
+## Contribute
+
+If you like to contribute in any way, please head to the following repository:
+
+* [GitLab](https://gitlab.com/lo_extensions/lo-page-numbering)
