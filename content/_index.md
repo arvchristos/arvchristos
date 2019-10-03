@@ -30,3 +30,13 @@ So, without further ado:
 </div>
 {{< /rawhtml >}}
 
+If you are interested about my working/academic experience or seek for a full list of my technical skills please consult the following documents:
+
+* 
+{{< rawhtml >}}
+	<a href="/documents/short_cv.pdf" target="_blank">Short Resume</a><span>&#32;|&#32;Selected projects and overview</span> 
+{{< /rawhtml >}}
+* 
+{{< rawhtml >}}
+	<a href="/documents/detailed_cv.pdf" target="_blank">Detailed Resume</a>   
+{{< /rawhtml >}}
