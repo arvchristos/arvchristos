@@ -1,3 +1,7 @@
 .menu .active {
 	text-decoration: underline;
 }
+
+.greater-icon.active {
+	color: #fe5186;
+}

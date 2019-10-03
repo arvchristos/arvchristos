@@ -5,6 +5,9 @@
 
 <div class="archive">
   <h1>{{ .Title }}</h1>
+  <p>
+    Here lie some of the ideas I considered useful to write down on public. Do not expect posts on a regular basis. My activities require such an amount of focus that are inversely proportional to the frequency I post here.
+  </p>
   {{ range (where .Site.RegularPages "Type" $contentTypeName).GroupByPublishDate "2006" }}
   {{ if ne .Key "0001" }}
   <div class="archive__group-year">

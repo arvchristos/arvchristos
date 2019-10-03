@@ -6,13 +6,14 @@
       {{ partial "logo.html" . }}
       <div class="copyright">
         <span>Developed by <a href="https://www.linkedin.com/in/arvchristos/" target="_blank" rel="noopener">arvchristos</a></span>
-        <span>© {{ now.Year }} Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span>© {{ now.Year }} Powered by <a href="https://opensource.org/" target="_blank" rel="noopener">Open Source Software</a></span>
       </div>
     {{end}}
   </div>
 </footer>
 <script src="{{ "assets/main.js" | absURL }}"></script>
 <script src="{{ "assets/prism.js" | absURL }}"></script>
+<script src="{{ "assets/fontawesome.js" | absURL }}" crossorigin="anonymous"></script>
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {

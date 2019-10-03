@@ -5,6 +5,7 @@
 
 <div class="archive">
   <h1>{{ .Title }}</h1>
+  <p>A list of projects I work/ed on. I try to track all of the projects worth publicizing here. Tags are the selected taxonomy for general information such as implementation language and context of development.</p>
   {{ range (where .Site.RegularPages "Type" $contentTypeName).GroupByPublishDate "2006" }}
   {{ if ne .Key "0001" }}
   <div class="archive__group-year">
@@ -16,7 +17,7 @@
         {{ range where .Pages "Type" $contentTypeName }}
         {{ if eq .Kind "page" }}
         <div class="archive__post">
-          <h3 class="archive__post-title"><a href="{{ .Permalink }}"> <i class="{{ .Params.Icon | markdownify}}"></i> {{ .Title | markdownify }}</a>
+          <h3 class="archive__post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
           </h3>
           <div class="archive__post-meta">
             {{ with .Params.description }}

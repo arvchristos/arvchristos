@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+{{ $current := . }}
+
+
+        {{ $active := (eq "Arvanitis Christos" $current.Page.Title) }}
+        {{ $active = or $active (eq "Arvanitis Christos" $current.Title) }}
+        
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" class="greater-icon {{ if $active }}active{{ end }}">
   <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
 </svg>
