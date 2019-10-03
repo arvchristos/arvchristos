@@ -3,6 +3,15 @@ title = "Arvanitis Christos"
 url = "/"
 +++
 
+{{< rawhtml >}}
+<h3>
+    	<a href="mailto:arvchristos@protonmail.com" target="_blank" title="email"><i class="fas fa-envelope"></i></a><span> | </span>
+    	<a href="https://www.linkedin.com/in/arvchristos/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a><span> | </span>
+    	<a href="https://www.facebook.com/arvchristos" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a><span> | </span>
+		<a href="https://www.github.com/arvchristos" target="_blank" title="GitHub"><i class="fab fa-github"></i></a><span> | </span>
+		<a href="https://www.gitlab.com/arvchristos" target="_blank" title="GitLab"><i class="fab fa-gitlab"></i></a>   
+    </h3>   
+{{< /rawhtml >}}
 
 Hello, my name is Arvanitis Christos and this is my perosnal web corner. I am an Electrical & Computer Engineering student at [NTUA](https://www.ece.ntua.gr/en) with a keen on software engineering and open source software.
 
