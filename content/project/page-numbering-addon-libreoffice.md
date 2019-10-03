@@ -2,7 +2,7 @@
 title: Page Numbering Addon - LibreOffice/OpenOffice
 date: '2018-08-29T18:51:58+03:00'
 draft: false
-description: Easy page numbering for LibreOffice with intuitive user interface.
+description: Easy page numbering for LibreOffice/OpenOffice with intuitive user interface.
 tags:
   - python
   - libreoffice
