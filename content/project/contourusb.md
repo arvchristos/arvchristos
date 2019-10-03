@@ -40,6 +40,7 @@ ContourUSB is recognized as a simple `hidraw` device and the pseudo-file `/dev/h
 
 ### `info`
 ContourUSB provides device information via specific frames called `Header records` in standardized format. Among others, details include:
+
 * Serial number
 * Software version
 * Measurement unit used
