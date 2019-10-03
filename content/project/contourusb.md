@@ -12,7 +12,7 @@ tags:
 
 ## Introduction
 
-I have used numerous glucose meters the last 20 years, but only lately I found interest in exporting statistics about my blood glucose levels. Most of the models provide a proprietary exporting tool that is AFAIK only for Windows. However, down to the connection interface level, all those device use either USB or Serial connection. This fact led to the development of many libraries meant to interface and provide data export functionality for a number of devices, regardless of the underlying operating system. The most famous library of that kind is [glucometerutils](https://github.com/Flameeyes/glucometerutils) by [@Flameeyes](https://github.com/Flameeyes), implemented in Python.
+I have used numerous glucose meters the last 20 years, but only lately I found interest in exporting statistics about my blood glucose levels. Most of the models provide a proprietary exporting tool that is AFAIK only for Windows. However, down to the connection interface level, all those devices use either USB or Serial connection. This fact led to the development of many libraries meant to interface and provide data export functionality for a number of devices, regardless of the underlying operating system. The most famous library of that kind is [glucometerutils](https://github.com/Flameeyes/glucometerutils) by [@Flameeyes](https://github.com/Flameeyes), implemented in Python.
 
 `glucometerutils` already supports multiple manufacturers device. However, when I wanted to export readings from my Ascensia (formerly Bayer) ContourUSB meter I realized that no one had implemented the required module for `glucometerutils`. Having used this library for my Freestyle Libre, I already had my graph scripts ready to get data in this particular format. So I decided to write the driver myself.
 
@@ -60,6 +60,9 @@ The driver implementation is included in the following commit:
 * [Add driver implementation for Ascensia ContourUSB.](https://github.com/Flameeyes/glucometerutils/commit/48e89e53d9983312e36ae6c353da9b94fa46b590)
 
 that was merged in the master branch of `glucometerutils`.
+
+## Future work
+Implementation of remote code functionality, provided by the protocol documentation, such as datetime set and memory flush is pending.
 
 ## Acknowledgements
 The following people contributed valuable information for this project:
