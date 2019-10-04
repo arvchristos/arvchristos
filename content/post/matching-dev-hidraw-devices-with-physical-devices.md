@@ -1,7 +1,7 @@
 ---
 title: Matching /dev/hidraw* devices with physical devices
 date: '2019-10-04T00:07:30+03:00'
-draft: true
+draft: false
 tags:
   - bash
   - hidraw
