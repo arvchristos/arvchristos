@@ -3,19 +3,19 @@ title = "Arvanitis Christos"
 url = "/"
 +++
 
-{{< rawhtml >}}
 <h3>
-    	<a href="mailto:arvchristos@protonmail.com" target="_blank" title="email"><i class="fas fa-envelope"></i></a><span>&#32;|&#32;</span>
-    	<a href="https://www.linkedin.com/in/arvchristos/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a><span>&#32;|&#32;</span>
-    	<a href="https://www.facebook.com/arvchristos" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a><span>&#32;|&#32;</span>
-		<a href="https://www.github.com/arvchristos" target="_blank" title="GitHub"><i class="fab fa-github"></i></a><span>&#32;|&#32;</span>
-		<a href="https://www.gitlab.com/arvchristos" target="_blank" title="GitLab"><i class="fab fa-gitlab"></i></a>   
-    </h3>   
-{{< /rawhtml >}}
+{{< profiles 
+	mail="mailto:arvchristos@protonmail.com"
+	linkedin="https://www.linkedin.com/in/arvchristos/"
+	facebook="https://www.facebook.com/arvchristos"
+	github="https://www.github.com/arvchristos"
+	gitlab="https://www.gitlab.com/arvchristos"
+>}}
 
+</h3>
 Hello, my name is Arvanitis Christos and this is my perosnal web corner. I am an Electrical & Computer Engineering student at [NTUA](https://www.ece.ntua.gr/en) with a keen on software engineering and open source software.
 
-Whether you want to contact me, follow my previous or ongoing projects, or even read some irrelevant blog posts about my engineering journey (such as the one about the hell I passed through to setup this simple web site), this is the right place. 
+Whether you want to contact me, follow my previous/ongoing projects, or even read some irrelevant blog posts about my engineering journey (such as the one about the hell I passed through to setup this simple web site), this is the right place. 
 
 So, without further ado:
 
