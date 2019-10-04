@@ -42,6 +42,12 @@ collections:
         name: "body"
         widget: "markdown"
 
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: []
+
+
   - name: "projects"
 
     label: "Project"
