@@ -38,14 +38,15 @@ collections:
         widget: "boolean"
         default: true
 
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
-
       - label: "Tags"
         name: "tags"
         widget: "list"
         default: []
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
 
 
   - name: "projects"
