@@ -13,7 +13,7 @@ url = "/"
 >}}
 
 </h3>
-Hello, my name is Arvanitis Christos and this is my perosnal web corner. I am an Electrical & Computer Engineering student at [NTUA](https://www.ece.ntua.gr/en) with a keen on software engineering and open source software.
+Hello, my name is Arvanitis Christos and this is my personal web corner. I am an Electrical & Computer Engineering student at [NTUA](https://www.ece.ntua.gr/en) with a keen on software engineering and open source software.
 
 Whether you want to contact me, follow my previous/ongoing projects, or even read some irrelevant blog posts about my engineering journey (such as the one about the hell I passed through to setup this simple web site), this is the right place. 
 
