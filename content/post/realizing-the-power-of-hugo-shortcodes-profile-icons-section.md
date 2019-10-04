@@ -25,7 +25,7 @@ At the homepage, I include a simple section with fontawesome icons about my prof
 		<a href="https://www.github.com/arvchristos" target="_blank" title="GitHub"><i class="fab fa-github"></i></a><span>&#32;|&#32;</span>
 		<a href="https://www.gitlab.com/arvchristos" target="_blank" title="GitLab"><i class="fab fa-gitlab"></i></a>   
     </h3>   
-{{</* /rawhtml */>}}
+{{</* rawhtml */>}}
 ```
 
 *Notice the span content. We use the special code for space character to preserve it after minification on build.*
@@ -34,13 +34,13 @@ However, merging content with HTML is against any static generator's purpose. So
 
 ```html
 <h3>
-{{< profiles 
+{{</* profiles 
 	mail="mailto:arvchristos@protonmail.com"
 	linkedin="https://www.linkedin.com/in/arvchristos/"
 	facebook="https://www.facebook.com/arvchristos"
 	github="https://www.github.com/arvchristos"
 	gitlab="https://www.gitlab.com/arvchristos"
->}}
+*/>}}
 </h3>
 ```
 
