@@ -22,21 +22,12 @@ So, without further ado:
 
 {{< rawhtml >}}
 <div style="text-align: left;">
-	<a href="/projects"><i class="fas fa-pencil-ruler"></i> See my projects</a>
+	<i class="fas fa-file-alt"></i> <a href="/documents/cv.pdf" target="_blank">View my resume</a>
 	<br>
-	<a href="/blog"><i class="fas fa-rss-square"></i> Read my blog</a>
+	<i class="fas fa-pencil-ruler"></i> <a href="/projects">View my projects</a>
 	<br>
-	<a href="/contact"><i class="far fa-address-book"></i> Contact me</a>   
+	<i class="fas fa-rss-square"></i> <a href="/blog">Read my blog</a>
+	<br>
+	<i class="far fa-address-book"></i> <a href="/contact">Contact me</a>
 </div>
-{{< /rawhtml >}}
-
-If you are interested about my working/academic experience or seek for a full list of my technical skills please consult the following documents:
-
-* 
-{{< rawhtml >}}
-	<a href="/documents/short_cv.pdf" target="_blank">Short Resume</a><span>&#32;|&#32;Selected projects and overview</span> 
-{{< /rawhtml >}}
-* 
-{{< rawhtml >}}
-	<a href="/documents/detailed_cv.pdf" target="_blank">Detailed Resume</a>   
 {{< /rawhtml >}}
