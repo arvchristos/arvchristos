@@ -7,9 +7,9 @@ Interested in working together or just chat? You can reach me out using one of t
 
 
 {{< rawhtml >}}
-	<i class="fas fa-envelope"></i><span>&#32;</span><a href="mailto:arvchristos@protonmail.com" target="_blank">christos.arvanitis@cern.ch</a>
+	<i class="fas fa-envelope"></i><span>&#32;</span><a href="mailto:christos.arvanitis@cern.ch" target="_blank">christos.arvanitis@cern.ch</a>
 	, <a href="mailto:arvchristos@protonmail.com" target="_blank">arvchristos@protonmail.com</a>
-	, </i><span>&#32;</span><a href="mailto:arvchristos@protonmail.com" target="_blank">arvchristos@gmail.com.com</a>
+	, </i><span>&#32;</span><a href="mailto:arvchristos@gmail.com" target="_blank">arvchristos@gmail.com</a>
 	<br>
 {{< /rawhtml >}}
 
